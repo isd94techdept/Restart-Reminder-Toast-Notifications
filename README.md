@@ -14,6 +14,28 @@ This PowerShell project sends Windows toast notifications to remind users to res
   - Scheduled task via Group Policy for traditional environments.
 - **Exemption Support**: Allows specific devices to opt out via a `DisableNag.txt` file.
 
+## Screenshots
+Below are examples of the toast notifications displayed at different uptime thresholds:
+<figure>
+  <figcaption><b>Gentle reminder to restart after 6 days.</b></figcaption>
+  <img src="screenshots/toast-6-days.png" alt="6-Day Notification">
+</figure>
+
+<figure>
+  <figcaption><b>Recommendation to restart for security updates.</b></figcaption>
+  <img src="screenshots/toast-11-days.png" alt="11-Day Notification">
+</figure>
+
+<figure>
+  <figcaption><b>Urgent reminder with snooze and restart options.</b></figcaption>
+  <img src="screenshots/toast-16-days.png" alt="16-Day Notification">
+</figure>
+
+<figure>
+  <figcaption><b>Forced restart countdown with immediate restart option.</b></figcaption>
+  <img src="screenshots/toast-20-days.png" alt="20-Day Notification">
+</figure>
+
 ## Prerequisites
 - Windows 10 or 11.
 - PowerShell 5.1 or later.
